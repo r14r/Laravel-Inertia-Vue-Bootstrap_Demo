@@ -1,0 +1,10 @@
+.bashrc
+.cache
+.composer
+.envrc
+.local
+.npm
+.venv
+.vscode-insiders
+Library
+set_env.sh

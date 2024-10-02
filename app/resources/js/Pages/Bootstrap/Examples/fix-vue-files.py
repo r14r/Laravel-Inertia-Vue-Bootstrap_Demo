@@ -42,13 +42,19 @@ def parse_vue_files_in_directory(directory):
                 style, wrapped_header, body_content = extract_style_and_body_from_vue(file_path)
 
                 # Output results for each file
-                print("Extracted Style:")
+                print("<style>")
                 print(style)
-                print("\nWrapped Header:")
-                print(wrapped_header)
-                print("\nBody Content:")
+                print("</style>")
+
+                print("<template>")
                 print(body_content)
-                print("\n" + "-"*40 + "\n")
+                print("</template>")
+
+
+                content= "<style>" + style + "</style>" + "\n" + "<template>" + body_content + "</template>"
+                with open(f"{root}/{file}", "w") as f:
+                    f.write(content)
+
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:

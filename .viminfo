@@ -12,11 +12,11 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1727889814,,"wq"
+|2,0,1727890069,,"wq"
+:w
+|2,0,1727890052,,"w"
 :Wq
 |2,0,1727889812,,"Wq"
-:w
-|2,0,1727889811,,"w"
 
 # Search String History (newest to oldest):
 
@@ -27,38 +27,148 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
-	app
-|3,1,1,1,1,0,1727889804,"app"
+"1	LINE	0
+	# Bitte passen Sie die folgenden Zeilen an und kommentieren Sie diese aus:
+|3,0,1,1,1,0,1727889868,"# Bitte passen Sie die folgenden Zeilen an und kommentieren Sie diese aus:"
 "2	LINE	0
-	.gitignore
-|3,0,2,1,1,0,1727889799,".gitignore"
+	# Das ist Gits benutzerspezifische Konfigurationsdatei.
+|3,0,2,1,1,0,1727889867,"# Das ist Gits benutzerspezifische Konfigurationsdatei."
 "3	LINE	0
-	.git
-|3,0,3,1,1,0,1727889799,".git"
+	app
+|3,0,3,1,1,0,1727889804,"app"
 "4	LINE	0
-	..
-|3,0,4,1,1,0,1727889796,".."
+	.gitignore
+|3,0,4,1,1,0,1727889799,".gitignore"
 "5	LINE	0
+	.git
+|3,0,5,1,1,0,1727889799,".git"
+"6	LINE	0
+	..
+|3,0,6,1,1,0,1727889796,".."
+"7	LINE	0
 	.
-|3,0,5,1,1,0,1727889795,"."
+|3,0,7,1,1,0,1727889795,"."
+""-	CHAR	0
+	w
+|3,1,36,0,1,0,1727889883,"w"
 
 # File marks:
-'0  10  0  ~/.gitignore
-|4,48,10,0,1727889814,"~/.gitignore"
+'0  13  0  ~/.gitignore
+|4,48,13,0,1727890069,"~/.gitignore"
+'1  12  0  ~/.gitignore
+|4,49,12,0,1727890053,"~/.gitignore"
+'2  12  0  ~/.gitignore
+|4,50,12,0,1727890053,"~/.gitignore"
+'3  1  0  ~/.git/COMMIT_EDITMSG
+|4,51,1,0,1727889889,"~/.git/COMMIT_EDITMSG"
+'4  3  14  ~/.gitconfig
+|4,52,3,14,1727889886,"~/.gitconfig"
+'5  15  0  ~/.gitignore
+|4,53,15,0,1727889814,"~/.gitignore"
+'6  10  0  ~/.gitignore
+|4,54,10,0,1727889814,"~/.gitignore"
+'7  14  0  ~/.gitignore
+|4,55,14,0,1727889814,"~/.gitignore"
+'8  10  0  ~/.gitignore
+|4,56,10,0,1727889814,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  13  0  ~/.gitignore
+|4,39,13,0,1727890069,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1727890061,"~/.gitignore"
+-'  12  0  ~/.gitignore
+|4,39,12,0,1727890053,"~/.gitignore"
+-'  12  0  ~/.gitignore
+|4,39,12,0,1727890053,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1727890039,"~/.gitignore"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1727889889,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1727889889,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1727889889,"~/.git/COMMIT_EDITMSG"
+-'  1  0  ~/.git/COMMIT_EDITMSG
+|4,39,1,0,1727889889,"~/.git/COMMIT_EDITMSG"
+-'  3  14  ~/.gitconfig
+|4,39,3,14,1727889886,"~/.gitconfig"
+-'  3  14  ~/.gitconfig
+|4,39,3,14,1727889886,"~/.gitconfig"
+-'  3  14  ~/.gitconfig
+|4,39,3,14,1727889886,"~/.gitconfig"
+-'  3  14  ~/.gitconfig
+|4,39,3,14,1727889886,"~/.gitconfig"
+-'  3  14  ~/.gitconfig
+|4,39,3,14,1727889886,"~/.gitconfig"
+-'  3  14  ~/.gitconfig
+|4,39,3,14,1727889886,"~/.gitconfig"
+-'  3  14  ~/.gitconfig
+|4,39,3,14,1727889886,"~/.gitconfig"
+-'  3  14  ~/.gitconfig
+|4,39,3,14,1727889886,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1727889866,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1727889866,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1727889866,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1727889866,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1727889866,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1727889866,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1727889866,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1727889866,"~/.gitconfig"
+-'  15  0  ~/.gitignore
+|4,39,15,0,1727889814,"~/.gitignore"
 -'  10  0  ~/.gitignore
 |4,39,10,0,1727889814,"~/.gitignore"
+-'  14  0  ~/.gitignore
+|4,39,14,0,1727889814,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1727889814,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1727889814,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1727889814,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1727889814,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1727889788,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1727889788,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1727889788,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1727889788,"~/.gitignore"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1727889812	0
-	"	10	0
-	.	10	0
+	*	1727890068	0
+	"	13	0
+	^	13	0
+	.	12	8
 	+	1	0
-	+	5	0
-	+	10	0
+	+	6	0
+	+	15	0
+	+	3	6
+	+	11	10
+	+	12	8
+
+> ~/.git/COMMIT_EDITMSG
+	*	1727889887	0
+	"	1	0
+
+> ~/.gitconfig
+	*	1727889883	0
+	"	3	14
+	^	3	31
+	.	3	14
+	+	1	0
+	+	2	0
+	+	3	14

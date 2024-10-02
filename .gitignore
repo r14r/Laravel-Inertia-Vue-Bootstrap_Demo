@@ -1,10 +1,15 @@
 .bashrc
 .cache
+.config
 .composer
 .envrc
 .local
 .npm
 .venv
 .vscode-insiders
+
+.gitconfig
+.viminfo
+
 Library
 set_env.sh

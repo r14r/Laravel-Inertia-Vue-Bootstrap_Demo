@@ -1,0 +1,31 @@
+default:
+	cat justfile
+
+install-php:
+	@pnpm     install
+
+install-composer:
+	@composer install
+
+install: install-php install-composer
+
+
+build:
+	@pnpm run build
+
+watch: dev
+
+dev:
+	@pnpm run dev
+
+setup-env:
+	@laravel-setup-folder
+
+serve:
+	@php artisan serve
+
+run: serve
+	
+migrate:
+	@php artisan migrate
+

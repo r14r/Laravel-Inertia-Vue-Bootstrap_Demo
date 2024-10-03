@@ -34,26 +34,22 @@ def parse_vue_files_in_directory(directory):
     # Traverse the directory and subdirectories
     for root, dirs, files in os.walk(directory):
         for file in files:
-            if file.endswith('.vue'):
+            if file.endswith('.html'):
+                file_name = os.path.splitext(file)[0]
                 file_path = os.path.join(root, file)
                 print(f"Processing file: {file_path}")
                 
                 # Extract the style, wrapped header, and body from the .vue file
                 style, wrapped_header, body_content = extract_style_and_body_from_vue(file_path)
 
-                # Output results for each file
-                print("<style>")
-                print(style)
-                print("</style>")
-
-                print("<template>")
-                print(body_content)
-                print("</template>")
-
 
                 content= "<style>" + style + "</style>" + "\n" + "<template>" + body_content + "</template>"
-                with open(f"{root}/{file}", "w") as f:
+
+                output=f"{root}/{file_name}.vue"
+                with open(output, "w") as f:
                     f.write(content)
+
+                print(output)
 
 
 if __name__ == '__main__':

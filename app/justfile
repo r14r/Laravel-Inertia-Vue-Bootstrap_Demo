@@ -22,7 +22,7 @@ setup-env:
 	@laravel-setup-folder
 
 serve:
-	@php artisan serve
+	@php artisan serve --port 10000 --host 0.0.0.0
 
 run: serve
 	

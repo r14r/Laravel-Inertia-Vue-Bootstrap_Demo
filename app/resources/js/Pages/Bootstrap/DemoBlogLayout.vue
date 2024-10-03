@@ -1,5 +1,5 @@
 <template>
-    <AppLayout title="Bootstrap">
+    <BlogLayout title="Blog Layout">
 
 
         <div class="container py-4 px-3 mx-auto">
@@ -51,12 +51,12 @@
             <Footer />
         </div>
 
-    </AppLayout>
+    </BlogLayout>
 </template>
 
 
 <script setup>
-import AppLayout from '@/Layouts/AppLayout.vue';
+import BlogLayout from '@/Layouts/BlogLayout.vue';
 
 import Header from '@/Components.Bootstrap/Header.vue';
 import Footer from '@/Components.Bootstrap/Footer.vue';

@@ -25,6 +25,9 @@ Route::middleware([
     Route::get('/bootstrap',          function () { return Inertia::render('Bootstrap/Home'); })->name('bootstrap_home');
     Route::get('/bootstrap/example',  function () { return Inertia::render('Bootstrap/Example'); })->name('bootstrap_example');
     Route::get('/bootstrap/examples', function () { return Inertia::render('Bootstrap/Examples/index'); })->name('bootstrap_examples');
-    
     Route::get('/bootstrap/examples/{name}', [BootstrapController::class, 'view'])->name('view');
+
+    Route::get('/layouts/blog',     function () { return Inertia::render('Bootstrap/DemoBlogLayout'); })->name('layout_blog');
+    Route::get('/layouts/base',     function () { return Inertia::render('Bootstrap/DemoBaseLayout'); })->name('layout_base');
+    
 });
